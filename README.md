@@ -1,6 +1,6 @@
 # README
 
-The Canvas Seeder will populate data in your Canvas account. It will not create Modules, and SOMETHING ELSE.
+The Canvas Seeder will populate data in your Canvas account. It will not create Modules.
 
 
 # Localhost Configuration Only
@@ -8,7 +8,7 @@ The Canvas Seeder will populate data in your Canvas account. It will not create 
 This is the Configuration you will need to seed a local Canvas instance.
 * Ruby version
 
-  `>= 2.2.0`
+  `>= 2.2.3`
 
 * Configuration
 
@@ -28,7 +28,7 @@ This is the Configuration you will need to seed a local Canvas instance.
 
   To kick off the jobs server, open a new terminal window.
 
-  Run`rake jobs:work`
+  Run `rake jobs:work`
 
 
 * Seeding
